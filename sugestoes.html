@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="saneamento.css">
+
+</head>
+<body>
+     <div id="header">
+        <div id="logo">
+           <img src="logo.png" alt="Ícone" class="logo">
+        </div>
+        <div id="navbar">
+            <ul class="menu clearfix">
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Reutilização da Água<div class="arrow-down"></div></a>
+                    <ul class="submenu1 clearfix">
+                        <li><a href="#">Reutilização Doméstica</a></li>
+                        <li><a href="#">Reutilização Empresarial</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Saneamento da Água</a></li>
+                <li><a href="sugestoes.html">Mande sua Sugestão</a></li>
+            </ul>
+        </div>
+        <div id="searchbar">
+            <form action="post">
+                <input type="text" placeholder="Search.." name="Search" class="searchbox">
+            </form>
+        </div>
+    </div>
+<br>
+<div id="containerconteudo">
+<form>
+	<fieldset><h1>Inscreva-se no nosso Newsletter</h1>
+		<p>Nome:<input type="text" size="40" maxlength="50" placeholder="Digite seu nome..." name="digitenome" id="cnome"><label for="cnome"></label> </p>	   
+	    <p>E-mail:<input type="text" size="40" maxlength="70" name="tEmail" placeholder="Digite seu E-mail" id="idEmail"><label for="idEmail"></label> </p>
+	    <fieldset id="sexo"><h3><legend>Sexo:</legend></h3>
+	        <input type="radio" name="tsexo" id="cMasc"/><label for="cMasc">Masculino</label> <br>
+	        <input type="radio" name="tsexo" id="cFem"/><label for="cFem">Feminino</label> 
+	        </fieldset>
+	       
+
+	    <p>Data de Nascimento:<input type="date" name="tData" id="idData"></p>
+    </fieldset>   
+	<fieldset><legend><h3>Endereço do Usuário</h3></legend>
+	    <p>Estado:<input type="text" name="estado" placeholder="Digite o estado em que você mora..." size="50"></p>
+	    <p>Cidade:<input type="text" name="cidade" size="50" placeholder="Digite a cidade em que você mora..."></p>
+	</fieldset>    
+	<fieldset><legend><h3>Envie-nos sua sugestão</h3></legend>
+	    <p>Mensagem:
+	    <textarea name="mensagemzinha" cols="60" rows="8"> </textarea></p>
+	
+	<input type="button" class="button" value="Enviar">
+	</fieldset>
+</form>	
+
+</body>
+</html>
